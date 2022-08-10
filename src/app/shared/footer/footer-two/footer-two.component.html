@@ -1,0 +1,132 @@
+<!--footer section -->
+<footer [ngClass]="class">
+    <div class="dark-layout" *ngIf="mainFooter">
+        <div class="container">
+            <section class="section-b-space border-b">
+                <div class="row footer-theme2">
+                    <div class="col-lg-3">
+                        <div class="footer-title footer-mobile-title">
+                            <h4>about</h4>
+                        </div>
+                        <div class="footer-contant">
+                            <div class="footer-logo" id="footerlogo">
+                                <img src="assets/images/logos/logo-topmatic.png" width="100px"  alt="logo">
+                            </div>
+                            <p>Notre mission est de garantir le succès de votre achat en termes de prix, de choix et de services.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 subscribe-wrapper">
+                        <div class="subscribe-block">
+                            <h2>newsletter</h2>
+                            <form >
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Enter your email">
+                                    <button type="submit" class="btn btn-solid ">subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-title">
+                            <h4>store information</h4>
+                        </div>
+                        <div class="footer-contant">
+                            <ul class="contact-details">
+                                <li>Topmatic Store</li>
+                                <li>Call Us: 58 232 877</li>
+                                <li>Email Us: <a href="javascript:void(0)">topmatic@gmail.com</a></li>
+                                <li>Fax: 78 500 890</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="dark-layout" *ngIf="subFooter">
+        <div class="container">
+            <section class="small-section">
+                <div class="row footer-theme2">
+                    <div class="col p-set">
+                        <div class="footer-link">
+                            <div class="sub-title">
+								<div class="footer-title">
+									<h4>Categories</h4>
+								</div>
+								<div class="footer-contant">
+									<ul>
+										<li><a href="javascript:void(0)">Robot de cuisine</a></li>
+										<li><a href="javascript:void(0)">Dispositif de coiffure</a></li>
+										<li><a href="javascript:void(0)">Fer à repasser</a></li>
+										<li><a href="javascript:void(0)">Appareil de cuisson</a></li>
+                                        <li><a href="javascript:void(0)">Electroménager</a></li>
+                                        <li><a href="javascript:void(0)">Balance numérique</a></li>
+                                    </ul>
+								</div>
+							</div>
+                        </div>
+                        <div class="footer-link-b">
+                            <div class="sub-title">
+								<div class="footer-title">
+									<h4>why we choose</h4>
+								</div>
+								<div class="footer-contant">
+									<ul>
+										<li><a href="javascript:void(0)">shipping & return</a></li>
+										<li><a href="javascript:void(0)">secure shopping</a></li>
+										<li><a href="javascript:void(0)">gallary</a></li>
+										<li><a href="javascript:void(0)">affiliates</a></li>
+										<li><a href="javascript:void(0)">contacts</a></li>
+									</ul>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="sub-footer darker-subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-6 col-sm-12">
+                  <div class="footer-end">
+                    <p><i class="fa fa-copyright" aria-hidden="true"></i> {{ today | date:'y' }} theme forest powered by pixelstrap</p>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12">
+                  <div class="payment-card-bottom">
+                    <ul>
+                      <li>
+                        <a href="javascript:void(0)">
+                            <img src="assets/images/icon/visa.png" alt="">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">
+                            <img src="assets/images/icon/mastercard.png" alt="">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">
+                            <img src="assets/images/icon/paypal.png" alt="">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">
+                            <img src="assets/images/icon/american-express.png" alt="">
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)">
+                            <img src="assets/images/icon/discover.png" alt="">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer section end -->
